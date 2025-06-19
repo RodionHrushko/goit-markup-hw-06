@@ -590,14 +590,21 @@ button{
  
  @media screen and (min-width: 768px) and (max-width: 1157px) {
      .our-list-first {
-         gap: 24px 72px;
+         row-gap: 72px;
+         column-gap: 24px;
          justify-content: space-between;
      }
                         
      .our-item {
+        max-width: 356px;
          width: calc((100% - 24px) / 2);
      }
- }
+
+         .our-item {
+             width: 100%;
+         }
+         }
+ 
                         
  
  @media screen and (min-width: 1158px) {
@@ -805,6 +812,7 @@ margin-left: 108px;
 .foter-plus{
     display: flex;
     margin-left: 108px;
+    gap:24px ;
     
 }
 
@@ -908,6 +916,11 @@ margin-left: 108px;
     list-style: none;
 }
 
+.foter-plus{
+    gap: 0;
+    margin-left: 0;
+}
+
 
 .social-item {
     width: 40px;
@@ -944,8 +957,3 @@ gap: 24px;
     margin-left: 80px; }
 }
 
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2e2f42;
-margin-bottom

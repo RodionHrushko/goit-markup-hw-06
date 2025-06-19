@@ -252,7 +252,7 @@ font-weight: 700;
 }  */
 
 /* our */
-
+/* 
 .our-item {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -368,7 +368,7 @@ display: flex;
 
                    /* FOTER */
 
-.footer {
+/* .footer {
 
 padding: 100px 0;
 }
@@ -458,7 +458,7 @@ font-weight: 400;
     fill: var(--icon-color, #f4f4fd);
     width: 24px;
     height: 24px;
-}
+} */ 
 
 .blackdrop{
     width: 100%;

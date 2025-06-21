@@ -869,7 +869,7 @@ address {
   letter-spacing: 0.02em;
   color: var(--white-color, #ffffff);
   margin-bottom: 16px;
-  text-align: left;
+  text-align: center;
 }
 
 .social-list {
@@ -984,6 +984,10 @@ address {
 @media screen and (min-width: 768px) {
   .footer-container {
     width: 584px;
+  }
+
+  .social-title {
+    text-align: left;
   }
 
   .subscribe-text {

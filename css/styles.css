@@ -1139,6 +1139,7 @@ address {
   .subscribe-container {
     margin-left: 80px;
     padding-top: 0;
+    margin-top: 0;
   }
 }
 
